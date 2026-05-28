@@ -1,0 +1,23 @@
+{
+  "name": "seo-report-app",
+  "version": "1.0.0",
+  "description": "SEO reporting app from GSC API or Looker CSV with HTML visual insights",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "generate": "node src/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "csv-parse": "^6.2.1",
+    "dayjs": "^1.11.21",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "googleapis": "^172.0.0"
+  }
+}
